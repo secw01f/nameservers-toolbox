@@ -22,7 +22,7 @@ def nsenum(target):
             pass
 
 def details():
-    details = {'name': str(os.path.basename(__file__)).splic('.')[0], 'category': 'recon', 'description': 'Enumerates DNS Nameservers for TLDs of provided target', 'path': os.path.abspath(__file__)}
+    details = {'name': str(os.path.basename(__file__)).split('.')[0], 'category': 'recon', 'description': 'Enumerates DNS Nameservers for TLDs of provided target', 'path': os.path.abspath(__file__)}
     return(details)
 
 def module(args):
